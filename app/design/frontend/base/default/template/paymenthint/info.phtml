@@ -1,5 +1,5 @@
 <?php if ($this->isOutputRequired()): ?>
-<div class="paymenthint <?php echo $this->getMethod() ?>">
+<div class="paymenthint <?php echo $this->getPayment()->getMethod() ?>">
     <?php echo $this->getPaymentInfo(); ?>
 </div>
 <?php endif; ?>

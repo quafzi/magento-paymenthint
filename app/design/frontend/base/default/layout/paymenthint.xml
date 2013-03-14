@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <layout>
     <checkout_onepage_success>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/paymenthint.css</stylesheet></action>
+        </reference>
         <reference name="content">
             <block type="quafzi_paymenthint/info" name="checkout.success.paymenthint" template="paymenthint/info.phtml" />
         </reference>
