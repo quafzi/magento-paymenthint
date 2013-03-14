@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <checkout_onepage_success>
+        <reference name="content">
+            <block type="quafzi_paymenthint/info" name="checkout.success.paymenthint" template="paymenthint/info.phtml" />
+        </reference>
+    </checkout_onepage_success>
+</layout>

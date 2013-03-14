@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quafzi_Paymenthint>
+            <version>0.1.0</version>
+        </Quafzi_Paymenthint>
+    </modules>
+    <global>
+        <helpers>
+            <quafzi_paymenthint>
+                <class>Quafzi_Paymenthint_Helper</class>
+            </quafzi_paymenthint>
+        </helpers>
+        <blocks>
+            <quafzi_paymenthint>
+                <class>Quafzi_Paymenthint_Block</class>
+            </quafzi_paymenthint>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <quafzi_paymenthint>
+                    <file>paymenthint.xml</file>
+                </quafzi_paymenthint>
+            </updates>
+        </layout>
+    </frontend>
+</config>
