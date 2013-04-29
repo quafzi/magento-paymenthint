@@ -1,5 +1,9 @@
 <?php if ($this->isOutputRequired()): ?>
 <div class="paymenthint <?php echo $this->getPayment()->getMethod() ?>">
     <?php echo $this->getPaymentInfo(); ?>
+    <b>
+        <?php echo Mage::helper('sales')->__('Amount') ?>:
+        <?php echo Mage::helper('core/data')->currency($this->getPayment()->getAmountOrdered()); ?>
+    </b>
 </div>
 <?php endif; ?>
